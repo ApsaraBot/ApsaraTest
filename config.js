@@ -16,7 +16,7 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "localhost" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb+srv://mirai:aUzYNq8UNgtNtFZ0@pailev.9a41d.mongodb.net/TENBot?retryWrites=true&w=majority", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://apsara:a6oncUgDCCjsRMz4@pailev.9a41d.mongodb.net/apsaradata?retryWrites=true&w=majority", // The URl of the mongodb database
 	prefix: "t/", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
