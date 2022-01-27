@@ -16,7 +16,7 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "localhost" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb+srv://apsara:a6oncUgDCCjsRMz4@pailev.9a41d.mongodb.net/apsaradata?retryWrites=true&w=majority", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://apsara:a6oncUgDCCjsRMz4@pailev.9a41d.mongodb.net/apsaraData?retryWrites=true&w=majority", // The URl of the mongodb database
 	prefix: "a/", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
@@ -30,11 +30,11 @@ module.exports = {
 		name: "Tentennnn#6944" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
-	votes: {
-		port: 5000, // The port for the server
-		password: "tenbot", // The webhook auth that you have defined on discordbots.org
-		channel: "844547603613483018" // The ID of the channel that in you want the votes logs
-	},
+	// votes: {
+	// 	port: 5000, // The port for the server
+	// 	password: "tenbot", // The webhook auth that you have defined on discordbots.org
+	// 	channel: "844547603613483018" // The ID of the channel that in you want the votes logs
+	// },
 	/* The API keys that are required for certain commands */
 	apiKeys: {
 		// BLAGUE.XYZ: https://blague.xyz/

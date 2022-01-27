@@ -15,8 +15,8 @@ module.exports = class {
 		client.logger.log(`${client.user.tag}, ready to serve ${client.users.cache.size} users in ${client.guilds.cache.size} servers.`, "ready");
 
 		/* DiscordBots.org STATS */
-		const discordbotsorg = require("../helpers/discordbots.org.js");
-		discordbotsorg.init(client);
+		// const discordbotsorg = require("../helpers/discordbots.org.js");
+		// discordbotsorg.init(client);
 
 		/* UNMUTE USERS */
 		const checkUnmutes = require("../helpers/checkUnmutes.js");
