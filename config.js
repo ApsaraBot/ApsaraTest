@@ -1,6 +1,6 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "Njk3MzU3Njg1MTMzMjc5MjU0.Xo2G9A.LC82_Fnuw8W4ZEs6gyUwXFHXMZU",
+	token: "ODM0NDkzMzA1NzQ4MzI0Mzkz.YIBsdA.0HCyXe0KASHCvnLxBGIKyg1q5SI",
 	/* For the support server */
 	support: {
 		id: "430630483408453633", // The ID of the support server
@@ -9,7 +9,7 @@ module.exports = {
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "56qKGeaRU27iY16axYcszs_sXwnYplSR", // Your discord client secret
+		secret: "MHDuc1Lzwpd1xVf3cvwN5ayCrGBKSECg", // Your discord client secret
 		baseURL: "localhost", // The base URl of the dashboard
 		logs: "694443492989992990", // The channel ID of logs
 		port: 8080, // Dashboard port
@@ -17,11 +17,11 @@ module.exports = {
 		failureURL: "localhost" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "mongodb+srv://apsara:a6oncUgDCCjsRMz4@pailev.9a41d.mongodb.net/apsaradata?retryWrites=true&w=majority", // The URl of the mongodb database
-	prefix: "t/", // The default prefix for the bot
+	prefix: "a/", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#FFD700", // The default color for the embeds
-		footer: "TEN Bot v4.0.0 | Beta Bot",
+		footer: "Apsara Bot v1",
 		clientAvatar: "this.client.user.avatarURL" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
@@ -63,6 +63,10 @@ module.exports = {
 		},
 		{
 			name: "Website : apsarabot.xyz",
+			type: "PLAYING"
+		},
+		{
+			name: "Prefix: t/",
 			type: "PLAYING"
 		}
 	]
